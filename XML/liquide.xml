@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<liquide>
+    <bouteille>
+        <marque>Cristaline</marque>
+        <volume unite="cl">150</volume>
+        <ionsPositif>
+            <calcium quantity="mg">71</calcium>
+            <magnesium quantity="mg">5.5</magnesium>
+        </ionsPositif>
+        <ionsNegatif>
+            <chlorure quantity="mg">20</chlorure>
+        </ionsNegatif>
+        <autre>fer</autre>
+        <source>
+            <nom>Saint-Cyr</nom>
+            <localisation>Loiret</localisation>
+        </source>
+        <codeBarre>3274080005003</codeBarre>
+        <ph>7.45</ph>
+    </bouteille>
+    <bouteille>
+        <marque>Cristaline</marque>
+        <volume unite="cl">50</volume>
+        <ionsPositif>
+            <calcium quantity="mg">98</calcium>
+            <magnesium quantity="mg">4</magnesium>
+        </ionsPositif>
+        <ionsNegatif>
+            <chlorure quantity="mg">3.6</chlorure>
+            <nitrate quantity="mg">2</nitrate>
+        </ionsNegatif>
+        <source>
+            <nom>Aurele</nom>
+            <localisation>Alpe Maritime</localisation>
+        </source>
+        <codeBarre>3268840001008</codeBarre>
+        <ph>7.4</ph>
+    </bouteille>
+    <bouteille>
+        <marque>Volvic</marque>
+        <volume unite="cl">50</volume>
+        <ionsPositif>
+            <calcium quantity="mg">11.5</calcium>
+            <magnesium quantity="mg">8</magnesium>
+        </ionsPositif>
+        <ionsNegatif>
+            <chlorure quantity="mg">13.5</chlorure>
+            <nitrate quantity="mg">6.3</nitrate>
+        </ionsNegatif>
+        <autre>silice</autre>
+        <source>
+            <localisation>Volvic</localisation>
+        </source>
+        <codeBarre>3057640117008</codeBarre>
+        <ph>7</ph>
+    </bouteille>
+</liquide>
