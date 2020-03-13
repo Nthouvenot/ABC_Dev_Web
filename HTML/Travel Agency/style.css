@@ -300,15 +300,15 @@ header ul li a:hover {
 }
 
 #contact form {
-    display: table;
+    width: 600px;
     margin-right: auto;
     margin-left: auto;
 }
 
 #contact form input {
-    display: table-cell;
     margin-top: 40px;
     margin-right: 10px;
+    margin-bottom: 20px;
     height: 36px;
 }
 
