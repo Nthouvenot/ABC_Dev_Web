@@ -1,0 +1,13 @@
+p {
+    border: 1px solid black;
+    position: relative;
+    width: 200px;
+    top:50px;
+    left: 50px;
+}
+
+.fixe {
+    position: fixed;
+    left: 100px;
+    background-color: blue;;
+}

@@ -1,0 +1,115 @@
+#layout {
+	position:relative;
+	display: block;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(163, 219, 245);
+}
+
+header, footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 40px;
+	text-align: center;
+}
+
+#tableau {
+	display: table;
+	width: 100%;
+}
+
+
+h1, #menu {	
+	font-size: 1em;
+	text-align: center;
+}
+
+nav {
+	display: table-cell;
+	width: 20%;
+	height: 160px;
+	/*border: 1px solid black;*/
+	/*border-radius: 5px;*/
+}
+
+nav h1 {
+	width: 100%;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	/*border-bottom: 1px solid black;*/
+}
+
+nav ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+ul {
+	display: table;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+li  {
+	display: table-row;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+	height: 40px;
+}
+
+li a {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#centre  {
+	width: 80%;
+	height: 160px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: table-cell;
+}
+
+p {
+	padding-left: 4px;
+}
+
+footer {
+	height: 28px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer a {
+	display: table-cell;
+	width: 111px;
+	padding: 2px; 
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+footer p {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding-right: 10px;
+}

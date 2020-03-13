@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        </head>
+        </meta charset="utf-8">
+    </head>
+    <body>
+        
+        <form action="form.php" method="get" >
+            <h1>Formulaire Type</h1>
+            <h2>Coordonnees</h2>
+            <p>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom"> 
+            </p>
+            <p>
+                <label for="prenom">Prenom</label>
+                <input type="text" id="prenom" name="prenom">   
+            </p>
+            <p>
+                <label for="documentation">Je désire recevoir une documentation</label>
+                <input type="checkbox" id="documentation" name="documentation">
+            </p>
+            <p>
+                <label for="pays">Pays</label>
+                <select name="pays" id="pays" required="required" value="france">
+                    <option value="allemagne">D:Allemagne</option>
+                    <option value="angleterre">UK:Angleterre</option>
+                    <option value="france">FR:France</option>
+                    <option value="italie">IT:Italie</option>
+                    <option value="suisse">CH:Suisse</option>
+                </select>
+            </p>
+            <p>
+                <label for="sexe">Sexe :</label>
+                <input type="radio" id="masculin" name="genre" value="masculin">
+                <label for="masculin">Masculin</label>
+                <input type="radio" id="feminin" name="genre" value="feminin">
+                <label for="feminin">Feminin</label>
+            </p>    
+        <h2>Domaine(s) d'activite</h2>
+        <p>
+            Vous pouvez en choisir plus q'un...<br/>
+            <label for="pedagogie">Pedagogie</label>
+            <input type="checkbox" name="pedagogie" id="pedagogie">
+            <label for="psychologie">Psychologie</label>
+            <input type="checkbox" name="psychologie" id="psychologie">
+            <label for="informatique">Informatique</label>
+            <input type="checkbox" name="informatique" id="informatique">
+            <label for="autre">Autre</label>
+            <input type="checkbox" name="autre" id="autre">
+        </p>
+        <h2>Commentaire</h2>
+        <p>
+            Si vous le voulez vous pouvez écrire vos activités ou intêrets<br/>
+            <textarea name="commentaires" id="commentaires" cols="50" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="reset" value="Effacer les données">
+            <input type="submit" value="Enregistrer les données">
+        </p>
+    </form>
+    </body>
+</html>
