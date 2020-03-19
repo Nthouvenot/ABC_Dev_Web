@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Exemples",
+    "\\Exemples\\Boucle",
+    "\\Exemples\\Condition"
   ],
+  "SelectedNode": "\\Exemples\\Boucle\\script.js",
   "PreviewInSolutionExplorer": false
 }
