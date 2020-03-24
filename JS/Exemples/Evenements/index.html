@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Les événement en JavaScript</title>
+</head>
+<body>
+    <span onclick="alert('Hello !');">Cliquez-moi !</span>
+    <span onclick="alert('Voici le contenu de l\'élément que vous avez cliqué :\n\n' + this.innerHTML);">Cliquez-moi !</span><br />
+    <input id="input" type="text" size="50" value="Cliquez ici !"
+           onfocus="this.value='Appuyez maintenant sur votre touche de tabulation.';"
+           onblur="this.value='Cliquez ici !';" />
+    <br /><br />
+    <a href="#" onfocus="document.getElementById('input').value = 'Vous avez maintenant le focus sur le lien, bravo !';">Un lien bidon</a><br />
+    <!--Lien sans return-->
+    <a href="http://blog.crdp-versailles.fr/rimbaud/" onclick="alert('Vous avez cliqué!');">Cliquez-moi !</a><br />
+    <!--Lien avec return false-->
+    <a href="http://blog.crdp-versailles.fr/rimbaud/" onclick="alert('Vous avez cliqué !'); return false;">Cliquez-moi !</a>
+    <!--Lien créé seulement pour l'événement onclick, sans href-->
+    <a href="#" onclick="alert('Vous avez cliqué !'); return false;">Cliquez-moi !</a>
+</body>
+</html>
