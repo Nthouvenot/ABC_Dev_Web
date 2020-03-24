@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Exemples",
-    "\\Exemples\\Formulaire"
+    "\\Exemples\\Formulaire",
+    "\\Exercices",
+    "\\Exercices\\PremiersEffetsChangementDeCouleur"
   ],
-  "SelectedNode": "\\Exemples\\Formulaire\\script.js",
+  "SelectedNode": "\\Exemples\\Formulaire\\index.html",
   "PreviewInSolutionExplorer": false
 }
