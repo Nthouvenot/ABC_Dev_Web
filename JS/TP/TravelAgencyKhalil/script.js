@@ -3,7 +3,7 @@ formulaire[0].action = '#contact';
 
 //On désactive le bouton "ok"
 var input = document.getElementsByTagName('input');
-var submit;[0]
+var submit;
 for (i = 0; i < input.length; i++) {
     if (input[i].type == 'submit') {
         input[i].disabled = true;
