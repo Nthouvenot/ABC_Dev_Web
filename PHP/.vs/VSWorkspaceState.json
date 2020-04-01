@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Exemples",
-    "\\Exemples\\FormulaireFichier",
-    "\\TP",
-    "\\TP\\TpMotDePasse"
+    "\\Exemples"
   ],
-  "SelectedNode": "\\TP\\TpMotDePasse\\index.php",
+  "SelectedNode": "\\Exemples\\Session",
   "PreviewInSolutionExplorer": false
 }
