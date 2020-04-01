@@ -7,9 +7,9 @@
  
     <body>
  
-    <?php include("entete.php"); ?>
+    <?php include("header.php"); ?>
     
-    <?php include("menus.php"); ?>
+    <?php include("menu.php"); ?>
     
     <!-- Le corps -->
     
@@ -24,7 +24,7 @@
     
     <!-- Le pied de page -->
     
-    <?php include("pied_de_page.php"); ?>
+    <?php include("footer.php"); ?>
     
     </body>
 </html>
