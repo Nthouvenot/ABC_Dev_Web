@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\PHP",
-    "\\PHP\\Exemples"
+    "\\PHP\\Exemples",
+    "\\PHP\\Exemples\\SqlEcrire"
   ],
-  "SelectedNode": "\\PHP\\Exemples\\EcrireDansUnFichier.php",
+  "SelectedNode": "\\PHP\\Exemples\\SqlEcrire\\modifierUneEntreeAvecExec.php",
   "PreviewInSolutionExplorer": false
 }
