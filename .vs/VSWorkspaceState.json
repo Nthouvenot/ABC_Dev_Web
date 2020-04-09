@@ -3,10 +3,10 @@
     "",
     "\\PHP",
     "\\PHP\\Exemples",
-    "\\PHP\\Exemples\\SqlEcrire",
+    "\\PHP\\Exemples\\Base POO",
     "\\PHP\\TP",
     "\\PHP\\TP\\TravelAgency"
   ],
-  "SelectedNode": "\\PHP\\TP\\TravelAgency\\index.php",
+  "SelectedNode": "\\PHP\\Exemples\\Base POO\\autoLoadClass.php",
   "PreviewInSolutionExplorer": false
 }
