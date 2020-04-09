@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="styles.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet"/>
+        <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel="stylesheet"/>
         <title>Travel Agency</title>
     </head>
     
@@ -17,6 +17,7 @@
                         <li><a href="#steps">Destinations</a></li>
                         <li><a href="#possibilities">Circuits</a></li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><a href="formulaireConnexionAdministrateur.html">Administrateur</a>
                     </ul>
                 </nav>
             </div>
@@ -71,17 +72,22 @@
                 
 			</div>
 		</section>
-        
         <section id="contact">
-            <div class="wrapper">
-                <h3>Contactez-nous</h3>
-                <p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour, circuit ou voyage sur mesure.</p>
+<?php
+if(isset($_GET['contacted'])) {
+    echo '<h3 style="background-color: red; padding-top: 10px;">Déja contacté</h3>';
+    }
+else {
+    echo '<h3>Contactez-nous</h3>';
+}
+?>
                 
-                <form>
+                <p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour, circuit ou voyage sur mesure.</p>
+                <form method="post" action="actionFormulaire.php">
                     <label for="name">Nom</label>
-                    <input type="text" id="name" placeholder="Votre nom">
+                    <input type="text" id="name" name="name" placeholder="Votre nom">
                     <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Votre email">
+                    <input type="text" id="email" name="email" placeholder="Votre email">
                     <input type="submit" value="OK" class="button-3">
                 </form>
             </div>
@@ -96,7 +102,7 @@
         </footer>
         
         
-        <script src="script.js"></script>
+       <!-- <script src="./js/script.js"></script>-->
     </body>
 
 </html>

@@ -3,8 +3,10 @@
     "",
     "\\PHP",
     "\\PHP\\Exemples",
-    "\\PHP\\Exemples\\SqlEcrire"
+    "\\PHP\\Exemples\\SqlEcrire",
+    "\\PHP\\TP",
+    "\\PHP\\TP\\TravelAgency"
   ],
-  "SelectedNode": "\\PHP\\Exemples\\SqlEcrire\\modifierUneEntreeAvecExec.php",
+  "SelectedNode": "\\PHP\\TP\\TravelAgency\\index.php",
   "PreviewInSolutionExplorer": false
 }

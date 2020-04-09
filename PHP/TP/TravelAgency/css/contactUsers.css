@@ -1,0 +1,25 @@
+#page {
+    position: relative;
+}
+
+p {
+    text-align: center;
+}
+
+#styleResultat {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    background-color: lightblue;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#container {
+    width: 305px;
+    margin: auto;
+}

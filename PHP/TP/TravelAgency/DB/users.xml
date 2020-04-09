@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Hôte : localhost
+- Généré le : mer. 08 avr. 2020 à 18:19
+- Version du serveur :  10.4.12-MariaDB
+- Version de PHP : 7.4.4
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="TravelAgency" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `identifiant` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `password` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `admin` tinyint(1) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+</pma_xml_export>
