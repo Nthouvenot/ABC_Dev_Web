@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PHP",
-    "\\PHP\\Exemples",
-    "\\PHP\\Exemples\\Base POO",
+    "\\JS",
+    "\\JS\\TP",
+    "\\JS\\TP\\TravelAgencyKhalil",
     "\\PHP\\TP",
     "\\PHP\\TP\\TravelAgency"
   ],
-  "SelectedNode": "\\PHP\\Exemples\\Base POO\\autoLoadClass.php",
+  "SelectedNode": "\\JS\\TP\\TravelAgencyKhalil\\script.js",
   "PreviewInSolutionExplorer": false
 }
