@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\JS",
-    "\\JS\\TP",
-    "\\JS\\TP\\TravelAgencyKhalil",
-    "\\PHP\\TP",
-    "\\PHP\\TP\\TravelAgency"
+    "\\JS\\Exemples",
+    "\\JS\\Exemples\\Dhtml récuperer html",
+    "\\JS\\Exercices"
   ],
-  "SelectedNode": "\\JS\\TP\\TravelAgencyKhalil\\script.js",
+  "SelectedNode": "\\JS\\Exemples\\Dhtml récuperer html\\script.js",
   "PreviewInSolutionExplorer": false
 }

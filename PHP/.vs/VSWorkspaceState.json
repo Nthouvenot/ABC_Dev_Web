@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Exemples"
+    "\\Exemples",
+    "\\TP",
+    "\\TP\\TravelAgency"
   ],
-  "SelectedNode": "\\Exemples\\Session",
+  "SelectedNode": "\\TP\\TravelAgency\\actionFormulaire.php",
   "PreviewInSolutionExplorer": false
 }
